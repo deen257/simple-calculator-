@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link href="/static/styles.css" rel="stylesheet" />
+    <script src="/static/app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="input" id="input"></div>
+      <div class="buttons">
+        <div class="operators">
+          <div data-operator="+">+</div>
+          <div data-operator="-">-</div>
+          <div data-operator="*">&times;</div>
+          <div data-operator="/">&divide;</div>
+        </div>
+        <div class="left-panel">
+          <div class="numbers">
+            <div data-number="7">7</div>
+            <div data-number="8">8</div>
+            <div data-number="9">9</div>
+          </div>
+          <div class="numbers">
+            <div data-number="4">4</div>
+            <div data-number="5">5</div>
+            <div data-number="6">6</div>
+          </div>
+          <div class="numbers bottom">
+            <div data-number="3">3</div>
+            <div data-number="2">2</div>
+            <div data-number="1">1</div>
+          </div>
+          <div class="numbers">
+            <div data-number="0">0</div>
+            <div data-number="." id=" dot">.</div>
+            <div data-clear="clear" id ='clear'>C</div>
+          </div>
+        </div>
+        <div class="equal" data-equal="=">=</div>
+      </div>
+    </div>
+  </body>
+</html>
